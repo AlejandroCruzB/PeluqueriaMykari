@@ -1,0 +1,44 @@
+.col-lg-9 {
+  margin: auto;
+  }
+
+.carousel-inner {
+  border: 1px black solid;
+  }
+
+body {
+  background-image: url("./images/nubes11.jpg");
+}
+
+.carousel-control-prev {
+  margin-left: -30px;
+}
+
+.carousel-control-next {
+  margin: 50px;
+}
+
+#search {
+  margin-right: -100px;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+#servicios {
+  margin-left: 375px;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.row {
+  text-align: center;
+}
+
+.card-body{
+  background-color: #E6E6E6
+}
+
+#FAQ {
+  margin-left: 375px;
+  font-weight: 500;
+  font-size: 50px;
