@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
   <head>
@@ -10,12 +10,12 @@
 
     <title>Hairdressing Mykäri</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- CSS -->
     <link href="./CSS/bootstrap.min.css" rel="stylesheet">
     <link href="./style.css" rel="stylesheet">
 </head>
   <body id="inicio">
-<!-- Prueba -->
+
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
@@ -48,7 +48,7 @@
     </nav>
 <br></br>
 
-        <!-- /.col-lg-3 -->
+        <!-- carrusel -->
 
         <div class="col-lg-9">
 
@@ -78,8 +78,18 @@
               <span class="sr-only">Siguiente</span>
             </a>
           </div>
-          <hr></hr>
-<b id="servicios">SERVICIOS</b><br></br>
+<br>
+<br>
+    <!-- servicios -->
+<div id="servicios">
+<div>
+          <hr>
+
+<a>SERVICIOS</a>
+</div>
+</div>
+
+<br>
           <div class="row">
 
             <div class="col-lg-4 col-md-6 mb-4">
@@ -97,7 +107,7 @@
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
                 </div>
               </div>
-            </div>
+            </div>  
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
@@ -135,30 +145,27 @@
 
 
 
-              </div>
-            </div>
-
           </div>
-          <!-- /.row -->
+       </div>
 
-        </div>
-        <!-- /.col-lg-9 -->
 
-      </div>
-      <!-- /.row -->
-
-    </div>
-    <!-- /.container -->
-
-<hr>
 
 <!-- cita -->
+<div id="cita">
+<div>
+          <hr>
+
+</div>
+</div>
+
+<br>
 <div class="container" >
-    <h2 id="cita" class="text-center">Pida su cita ahora</h2>
+    <h2 class="text-center">Pida su cita ahora</h2>
     <br>
 
+<p>
     <div class="row">
-        <div class="col-md-4 col-md-offset-1 form-group">
+        <div class="col-md-4 col-md-offset-1 form-group" id="formulario">
             <input type="text" class="form-control" placeholder="Nombre y apellidos">
             <br>
             <input type="text" class="form-control" placeholder="Número de teléfono">
@@ -174,7 +181,7 @@
         </div>
 
         <div class="col-md-4 col-md-offset-1">
-            <table class="table">
+            <table class="table" id="tabla">
                 <thead>
                     <tr>
                         <th>Día</th>
@@ -217,19 +224,34 @@
                         <td>Domingo</td>
                         <td>8:00 - 12:00</td>
                     </tr>
+
+                    <tr><td>Cerrado en vacaciones</td><td> Más información por teléfono.</td></tr>
+<br>
                 </tbody>
-            </table>
-            <p>Cerrado en vacaciones, más información por teléfono.</p>
+
+                </table>
+
         </div>
+        </p>
     </div>
-</div>
+    </div>
+
 
 <hr>
+
   <!-- FAQ -->
-<b id="FAQ">PREGUNTAS FRECUENTES</b>
+  <div id="FAQ">
+  <div>
+
+
+  <br>
+<b>PREGUNTAS FRECUENTES</b>
+</div>
+</div>
+<div id="formatosrespuestas">
   <div class="container">
 
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button class="btn btn-link collapsed" id="p1" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
           Preguntas 1
         </button>
 
@@ -243,7 +265,7 @@
 
   <div class="container">
 
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <button class="btn btn-link collapsed" id="p2" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           Preguntas 2
         </button>
 
@@ -253,10 +275,10 @@
         Respuestas 2
       </div>
     </div>
-  </div>
+
   <div class="container">
 
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <button class="btn btn-link collapsed" id="p3" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           Preguntas 3
         </button>
 
@@ -266,29 +288,32 @@
         Respuestas 3
       </div>
     </div>
-  </div>
-
+</div>
 
     <!-- Footer -->
-    <footer class="py-5 bg-dark">
+    <footer class="py-5 bg-dark"  id="barrafinal">
     <div class="row">
     <div class="col-md-4">
-      <div class="m-0 text-center text-white">
+      <div class="m-0 text-center text-white" id="datosfooter">
       <p> Contacto: Fulanito de tal </p>
       <p>  Calle: Los peluqueros</p>
       <p>Teléfono: 618xxxxxx</p>
       <p>Email: peluqueriamykari@gmail.com</p>
+      </div>
     </div>
-  </div>
+
 
       <div class="col-md-4">
+        <br>
         <img src="./images\iconopelu.png" alt="" height="90" width="100">
         <small> <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p> </small>
       </div>
 
 <div class="col-md-4">
 
-      <ul>
+<br>
+
+      <ul id="nav2">
           <li><a href="#servicios" class="m-0 text-center text-white">Nuestros servicios</a></li>
           <li><a href="#cita" class="m-0 text-center text-white">Pide una cita</a></li>
           <li><a href="#FAQ" class="m-0 text-center text-white">FAQ</a></li>
@@ -296,7 +321,7 @@
       </ul>
     </div>
 
-      <!-- /.container -->
+  </div>
     </footer>
 
     <!--Modal -->
@@ -327,7 +352,7 @@
         </div>
     </div>
 
-    <!-- Bootstrap core JavaScript -->
+    <!--  JavaScript -->
     <script src="./JS/jquery-3.3.1.min.js"></script>
     <script src="./JS/bootstrap.min.js"></script>
 

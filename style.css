@@ -1,9 +1,10 @@
 .col-lg-9 {
   margin: auto;
   }
-
+  
 .carousel-inner {
   border: 1px black solid;
+  margin-top: 100px;
   }
 
 body {
@@ -42,3 +43,55 @@ body {
   margin-left: 375px;
   font-weight: 500;
   font-size: 50px;
+}
+
+#tabla {
+  margin-left: 300px;
+}
+
+#vacas {
+  margin-left: 300px;
+  margin-right: 0px;
+}
+
+#formulario {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+#formatosrespuestas {
+  font-size: 20px;
+  margin-left: -200px;
+}
+
+#p1{
+  font-size: 15px;
+  color: white;
+}
+
+#p2{
+  font-size: 15px;
+  color: white;
+}
+
+#p3{
+  font-size: 15px;
+  color: white;
+}
+
+ul{
+       list-style:none;
+       }
+
+#nav2 {
+                margin-right: 100px;
+              }
+
+#datosfooter {
+  margin-left: 10px;
+}
+
+#barrafinal {
+  margin-top: 50px;
+  height: 200px;
+  }
